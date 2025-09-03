@@ -32,12 +32,9 @@ class SocialLoginButton extends StatelessWidget {
             width: 20,
             height: 20,
             decoration: BoxDecoration(
-              color: color ?? Colors.grey,
               borderRadius: BorderRadius.circular(10),
             ),
-            child: Center(
-              child: icon
-            ),
+            child: Center(child: icon),
           ),
           const SizedBox(width: 8),
           Text(

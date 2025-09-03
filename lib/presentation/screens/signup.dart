@@ -267,7 +267,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       ? null
                                       : _handleSignUp,
                                   style: ElevatedButton.styleFrom(
-                                    backgroundColor: const Color(0xFF4299E1),
+                                    backgroundColor: const Color(0xFF1D61E7),
                                     padding: const EdgeInsets.symmetric(
                                         vertical: 16),
                                     shape: RoundedRectangleBorder(
