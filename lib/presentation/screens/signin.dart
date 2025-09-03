@@ -7,6 +7,8 @@ import 'package:tumbrtest/presentation/widgets/app_button.dart';
 import 'package:tumbrtest/presentation/widgets/app_textfield.dart';
 
 class SignInScreen extends StatefulWidget {
+  const SignInScreen({super.key});
+
   @override
   _SignInScreenState createState() => _SignInScreenState();
 }
@@ -129,7 +131,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       child: IntrinsicHeight(
                         child: Column(
                           children: [
-                            SizedBox(
+                            const SizedBox(
                               height: 10,
                             ),
                             // Email field
@@ -292,7 +294,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                 Expanded(
                                   child: SocialLoginButton(
                                     text: 'Google',
-                                    icon: Image(
+                                    icon: const Image(
                                         image: AssetImage(
                                             'assets/icons/googleicon.png')),
                                     onPressed: () {},
@@ -302,7 +304,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                 Expanded(
                                   child: SocialLoginButton(
                                     text: 'Facebook',
-                                    icon: Image(
+                                    icon: const Image(
                                         image: AssetImage(
                                             'assets/icons/facebookicon.png')),
                                     // color: const Color(0xFF1877F2),
@@ -312,7 +314,7 @@ class _SignInScreenState extends State<SignInScreen> {
                               ],
                             ),
 
-                            SizedBox(
+                            const SizedBox(
                               height: 10,
                             ),
 
